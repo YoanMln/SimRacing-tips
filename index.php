@@ -1,9 +1,9 @@
 <?php 
-$page = $_GET['pages'] ?? 'home';
+$pages = $_GET['pages'] ?? 'home';
 
 include 'includes/header.php';
 
-$path = "pages/$pages.php";
+$path = "includes/pages/$pages.php";
 if (file_exists($path)) {
     include $path;
 } else {
@@ -11,3 +11,4 @@ if (file_exists($path)) {
 }
 
 include 'includes/footer.php';
+?>
