@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rity SimRacing tips </title>
     <link rel="stylesheet" href="/assets/CSS/style.css">
+    <link rel="stylesheet" href="/assets/CSS/colors.css">
     <?php if (file_exists ("assets/CSS/{$pages}.css")) : ?>
         <link rel="stylesheet" href="assets/css/<?=$pages ?>.css">
     <?php endif; ?>
