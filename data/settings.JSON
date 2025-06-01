@@ -1,0 +1,16 @@
+[
+  {
+    "car": "Ferrari GT3",
+    "tyre_pressure": "26 psi",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "-3.2 avt / -2.5 arr",
+    "notes": "Réglage pour Spa"
+  },
+  {
+    "car": "Porsche GT3",
+    "tyre_pressure": "26 psi",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "-3 avt / -2.2 arr",
+    "notes": "Réglage pour Nurb"
+  }
+]
