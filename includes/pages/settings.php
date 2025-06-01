@@ -1,6 +1,9 @@
 <main class="setting-page">
+    <div class="container-title">
     <h1>Réglages des voitures</h1>
+    </div>
     <section class="car-settings">
+        <div class="container-card">
     <?php
         $json = file_get_contents('./data/settings.json');
         $cars = json_decode($json, true);
@@ -20,5 +23,6 @@
         echo '<p>Aucun réglage trouvé.</p>';
     }
     ?>
+    </div>
     </section>
 </main>
