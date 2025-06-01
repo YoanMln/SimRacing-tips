@@ -9,3 +9,14 @@
   font-weight: bold;
   color: #e63946;
 }
+
+.bio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  width: 450px;
+  height: 250px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
