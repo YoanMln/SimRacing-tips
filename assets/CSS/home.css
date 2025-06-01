@@ -19,4 +19,18 @@
   height: 270px;
   border: 1px solid var(--border-color);
   border-radius: 5px;
+  font-weight: 100;
+}
+
+.video-container {
+  margin-top: 5em;
+}
+
+.video-title {
+  text-align: center;
+  font-weight: 200;
+}
+
+iframe {
+  margin-top: 5rem;
 }
