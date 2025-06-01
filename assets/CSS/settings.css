@@ -1,0 +1,33 @@
+.setting-page {
+  padding: 2rem;
+}
+
+.container-title {
+  text-align: center;
+}
+
+.car-settings {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.container-card {
+  display: flex;
+  gap: 5rem;
+}
+
+.car-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.car-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
