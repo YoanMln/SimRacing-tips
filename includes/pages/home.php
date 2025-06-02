@@ -1,6 +1,6 @@
 <header>
 <div class="title-container">
-            <h1 class="title">Rity SimRacing tips</h1>
+            <h1 class="title">SimRacing tips</h1>
             </div>
         <h2 class="intro">Ici, vous trouverez des réglages pour vos voitures, des conseils pour améliorer vos chronos et les dernières vidéos de course</h2>
 </header>
