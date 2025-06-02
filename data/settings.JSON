@@ -1,6 +1,7 @@
 [
   {
     "car": "Ferrari GT3",
+    "image": "ferrari-gt3.png",
     "tyre_pressure": "26 psi",
     "tyres": "Soft avt / Medium arr",
     "camber": "-3.2 avt / -2.5 arr",
@@ -8,6 +9,7 @@
   },
   {
     "car": "Porsche GT3",
+    "image": "porsche-gt3.png",
     "tyre_pressure": "26 psi",
     "tyres": "Soft avt / Medium arr",
     "camber": "-3 avt / -2.2 arr",
