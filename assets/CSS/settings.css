@@ -31,3 +31,17 @@
   font-size: 1.2rem;
   color: #333;
 }
+
+.car-image {
+  width: 200px;
+  max-width: 100%;
+  margin-left: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
