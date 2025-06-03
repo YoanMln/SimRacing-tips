@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.track-container {
+  margin-top: 2rem;
+}
+
 .car-settings {
   display: flex;
   flex-wrap: wrap;
@@ -43,5 +47,9 @@
   .container-card {
     display: flex;
     flex-direction: column;
+  }
+
+  .track-container {
+    text-align: center;
   }
 }
