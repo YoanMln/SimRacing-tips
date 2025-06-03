@@ -30,7 +30,7 @@
                     if ($car['circuit'] == $selectedTrack) {
                         echo '<article class="car-card">';
                         echo '<h2>' . htmlspecialchars($car['car']) . '</h2>';
-                        echo "<img class='car-image' src='./assets/img/" . htmlspecialchars($car['image']) . "' alt='" . htmlspecialchars($car['car']) . "'>";
+                        echo "<img class='car-image' src='./assets/images/cars/" . htmlspecialchars($car['image']) . "' alt='" . htmlspecialchars($car['car']) . "'>";
                         echo '<ul>';
                         echo '<li><strong>Pression pneus :</strong> ' . htmlspecialchars($car['tyre_pressure']) . '</li>';
                         echo '<li><strong>pneus :</strong> ' . htmlspecialchars($car['tyres']) . '</li>';
