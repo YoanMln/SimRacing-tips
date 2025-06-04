@@ -1,13 +1,15 @@
 [
   {
-    "car": "Ferrari GT3",
-    "image": "ferrari-gt3.png",
+    "car": "Porsche 992 GT3 RS MR",
+    "image": "992-GT3RS-MR.png",
     "tyre_pressure": "26 psi",
-    "tyres": "Soft avt / Medium arr",
+    "tyres": "Medium avt / Medium arr",
     "camber": "-3.2 avt / -2.5 arr",
+    "brand": "Porsche",
     "circuit": "Nurburgring",
     "notes": "test"
   },
+
   {
     "car": "Porsche GT3",
     "image": "porsche-gt3.png",
@@ -15,6 +17,29 @@
     "tyres": "Soft avt / Medium arr",
     "camber": "-3 avt / -2.2 arr",
     "circuit": "Spa-Francorchamps",
+    "brand": "Porsche",
+    "notes": "test"
+  },
+
+  {
+    "car": "Ferrari GT3",
+    "image": "ferrari-gt3.png",
+    "tyre_pressure": "26 psi",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "-3.2 avt / -2.5 arr",
+    "circuit": "Nurburgring",
+    "brand": "Ferrari",
+    "notes": "test"
+  },
+
+  {
+    "car": "Lamborghini GT3",
+    "image": "huracan-gt3-evo.png",
+    "tyre_pressure": "26 psi",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "-3 avt / -2.2 arr",
+    "circuit": "Spa-Francorchamps",
+    "brand": "Lamborghini",
     "notes": "test"
   }
 ]
