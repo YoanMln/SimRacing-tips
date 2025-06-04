@@ -68,11 +68,13 @@
                         echo "<img class='car-image' src='./assets/images/cars/" . htmlspecialchars($car['image']) . "' alt='" . htmlspecialchars($car['car']) . "'>";
                         // Specs techniques   
                         echo '<ul>';
+                        // Hidden
+                        echo '<li class="hidden"><strong>Circuit : </strong>' . htmlspecialchars($car['circuit']) . '</li>';
+                        echo '<li class="hidden" ><strong>Marque : </strong>' . htmlspecialchars($car['brand']) . '</li>';
+                        // Hidden
                         echo '<li><strong>Pression pneus :</strong> ' . htmlspecialchars($car['tyre_pressure']) . '</li>';
                         echo '<li><strong>pneus :</strong> ' . htmlspecialchars($car['tyres']) . '</li>';
                         echo '<li><strong>Carrossage :</strong> ' . htmlspecialchars($car['camber']) . '</li>';
-                        echo '<li><strong>Circuit : </strong>' . htmlspecialchars($car['circuit']) . '</li>';
-                        echo '<li><strong>Marque : </strong>' . htmlspecialchars($car['brand']) . '</li>';
                         echo '<li><strong>Notes :</strong> ' . htmlspecialchars($car['notes']) . '</li>';
                         echo '</ul>';
                         echo '</article>';
