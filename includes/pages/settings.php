@@ -19,6 +19,7 @@
             <div class="track-container">
                 <label for="track-choice">Choix du circuit</label><br>
                 <select name="track" id="track-choice" onchange="this.form.submit()">
+                    <option value="all" <?= ($selectedTrack == 'all') ? 'selected' : '' ?>>Tous les circuits</option>
                     <option value="Nurburgring" <?= ($selectedTrack == 'Nurburgring') ? 'selected' : '' ?>>Nurburgring</option>
                     <option value="Spa-Francorchamps" <?= ($selectedTrack == 'Spa-Francorchamps') ? 'selected' : '' ?>>Spa-Francorchamps</option>
                     <option value="RedBull Ring" <?= ($selectedTrack == 'RedBull Ring') ? 'selected' : '' ?>>RedBull Ring</option>
@@ -34,6 +35,7 @@
                     <option value="Porsche" <?= ($selectedBrand == 'Porsche') ? 'selected' : '' ?>>Porsche</option>
                     <option value="Ferrari" <?= ($selectedBrand == 'Ferrari') ? 'selected' : '' ?>>Ferrari</option>
                     <option value="Lamborghini" <?= ($selectedBrand == 'Lamborghini') ? 'selected' : '' ?>>Lamborghini</option>
+                    <option value="Aston Martin" <?= ($selectedBrand == 'Ferrari') ? 'selected' : '' ?>>Aston Martin</option>
                 </select>
             </div>
         </form>
