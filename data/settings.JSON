@@ -41,5 +41,16 @@
     "circuit": "Spa-Francorchamps",
     "brand": "Lamborghini",
     "notes": "test"
+  },
+
+  {
+    "car": "Aston Martin Valkyrie LMH",
+    "image": "valkyrie-LMH.webp",
+    "tyre_pressure": "25 psi",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "Avt-G: -31 - Avt-D:-20  / Arr-G: -31 - Arr-D: -20",
+    "circuit": "Spa-Francorchamps",
+    "brand": "Aston Martin",
+    "notes": "test"
   }
 ]
