@@ -74,5 +74,15 @@
     "circuit": "Spa-Francorchamps",
     "brand": "Mercedes",
     "notes": "test"
+  },
+  {
+    "car": "Cupra Leon Competición ",
+    "image": "cupra-leon-competicion.webp",
+    "tyre_pressure": "Avt-G: -20 / Avt-D: -20 / Arr-G: -20 / Avt-D: -20",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "Avt-G: -44 - Avt-D:-34  / Arr-G: -44 - Arr-D: -34",
+    "circuit": "Spa-Francorchamps",
+    "brand": "Cupra",
+    "notes": "test"
   }
 ]
