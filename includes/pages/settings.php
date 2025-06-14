@@ -35,7 +35,7 @@
                     <option value="Porsche" <?= ($selectedBrand == 'Porsche') ? 'selected' : '' ?>>Porsche</option>
                     <option value="Ferrari" <?= ($selectedBrand == 'Ferrari') ? 'selected' : '' ?>>Ferrari</option>
                     <option value="Lamborghini" <?= ($selectedBrand == 'Lamborghini') ? 'selected' : '' ?>>Lamborghini</option>
-                    <option value="Aston Martin" <?= ($selectedBrand == 'Ferrari') ? 'selected' : '' ?>>Aston Martin</option>
+                    <option value="Aston Martin" <?= ($selectedBrand == 'Aston Martin') ? 'selected' : '' ?>>Aston Martin</option>
                     <option value="Mercedes" <?= ($selectedBrand == 'Mercedes') ? 'selected' : '' ?>>Mercedes</option>
                     <option value="Cupra" <?= ($selectedBrand == 'Cupra') ? 'selected' : '' ?>>Cupra</option>
                 </select>
@@ -62,7 +62,8 @@
                     // Marque doit correspondre à celle sélectionnée ou all toutes marques
                     if (
                         $car['circuit'] == $selectedTrack &&
-                        ($selectedBrand == 'all' || $car['brand'] == $selectedBrand)
+                        ($selectedBrand == 'all' || $car['brand'] == $selectedBrand) &&
+                        ($selectedTrack == 'all' || $car['circuit'] == $selectedTrack)
                     ) {
                         // Création d'une card pour chaque voiture qui correspond aux critères
                         echo '<article class="car-card">';
