@@ -22,6 +22,17 @@
   },
 
   {
+    "car": "Porsche 911 GT3 Rennsport ",
+    "image": "911-RennSport.webp",
+    "tyre_pressure": "Avt G : 19 - Avt D : 19 / Arr G : 19 - Arr D : 19 ",
+    "tyres": "Medium avt / Medium arr",
+    "camber": "Avt G : -32 - Avt D: -22 :  / Arr G: -33 - Avt D : -22 ",
+    "brand": "Porsche",
+    "circuit": "Nurburgring",
+    "notes": "test"
+  },
+
+  {
     "car": "Porsche GT3",
     "image": "porsche-gt3.png",
     "tyre_pressure": "26 psi",
