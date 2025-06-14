@@ -37,6 +37,7 @@
                     <option value="Lamborghini" <?= ($selectedBrand == 'Lamborghini') ? 'selected' : '' ?>>Lamborghini</option>
                     <option value="Aston Martin" <?= ($selectedBrand == 'Ferrari') ? 'selected' : '' ?>>Aston Martin</option>
                     <option value="Mercedes" <?= ($selectedBrand == 'Mercedes') ? 'selected' : '' ?>>Mercedes</option>
+                    <option value="Cupra" <?= ($selectedBrand == 'Cupra') ? 'selected' : '' ?>>Cupra</option>
                 </select>
             </div>
         </form>
