@@ -6,7 +6,7 @@
     <?php
     // Récupération des valeurs sélectionnées avec les form
     // Si aucune valeur sélectionnée = valeur par deéfaut
-    $selectedTrack = isset($_POST['track']) ? $_POST['track'] : 'Nurburgring';
+    $selectedTrack = isset($_POST['track']) ? $_POST['track'] : 'all';
     $selectedBrand = isset($_POST['brand']) ? $_POST['brand'] : 'all';
 
     ?>
@@ -61,9 +61,8 @@
                     // Circuit doit correspondre à celui sélectionné
                     // Marque doit correspondre à celle sélectionnée ou all toutes marques
                     if (
-                        $car['circuit'] == $selectedTrack &&
-                        ($selectedBrand == 'all' || $car['brand'] == $selectedBrand) &&
-                        ($selectedTrack == 'all' || $car['circuit'] == $selectedTrack)
+                        ($selectedTrack == 'all' || $car['circuit'] == $selectedTrack) &&
+                        ($selectedBrand == 'all' || $car['brand']  == $selectedBrand)
                     ) {
                         // Création d'une card pour chaque voiture qui correspond aux critères
                         echo '<article class="car-card">';
