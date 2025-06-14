@@ -17,13 +17,12 @@ form {
 }
 
 .car-settings {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5rem;
+margin-top: 5rem;
 }
 
 .container-card {
   display: flex;
+  flex-wrap: wrap;
   gap: 5rem;
 }
 
