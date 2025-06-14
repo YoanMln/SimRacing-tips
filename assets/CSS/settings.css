@@ -17,7 +17,8 @@ form {
 }
 
 .car-settings {
-margin-top: 5rem;
+  margin-top: 5rem;
+  display: flex;
 }
 
 .container-card {
