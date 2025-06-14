@@ -11,6 +11,17 @@
   },
 
   {
+    "car": "Porsche 992 GT3 RS",
+    "image": "992-GT3RS.webp",
+    "tyre_pressure": "Avt G : 23 - Avt D : 22 / Arr G : 23 - Arr D : 22 ",
+    "tyres": "Medium avt / Medium arr",
+    "camber": "Avt G - Av D : 25 / Arr G - Avt D : 17",
+    "brand": "Porsche",
+    "circuit": "Nurburgring",
+    "notes": "test"
+  },
+
+  {
     "car": "Porsche GT3",
     "image": "porsche-gt3.png",
     "tyre_pressure": "26 psi",
