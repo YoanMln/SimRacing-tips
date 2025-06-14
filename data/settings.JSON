@@ -63,5 +63,16 @@
     "circuit": "Spa-Francorchamps",
     "brand": "Aston Martin",
     "notes": "test"
+  },
+
+  {
+    "car": "Mercedes AMG GTPE PERF",
+    "image": "AMG GTP E Perf.webp",
+    "tyre_pressure": "Avt-G: 20 / Avt-D: 20 / Arr-G: 20 / Avt-D: 20",
+    "tyres": "Soft avt / Medium arr",
+    "camber": "Avt-G: -23 - Avt-D:-14  / Arr-G: -23 - Arr-D: -14",
+    "circuit": "Spa-Francorchamps",
+    "brand": "Mercedes",
+    "notes": "test"
   }
 ]
