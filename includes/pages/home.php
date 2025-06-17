@@ -1,3 +1,6 @@
+<video autoplay muted loop id="home-video">
+    <source src="assets/video/home-video.mp4">
+</video>
 <header>
     <div class="title-container">
         <h1 class="title">SimRacing tips</h1>
